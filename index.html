@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mason – Song Collection</title>
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px 10px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+    }
+    p.subtitle {
+      color: #bbb;
+      margin-bottom: 2em;
+    }
+    .track-list {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .track {
+      border: 1px solid #444;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      background: #111;
+    }
+    .track-title {
+      font-size: 1.1em;
+      margin-bottom: 0.2em;
+    }
+    .track-meta {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 0.5em;
+    }
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mason – Tracks</h1>
+  <p class="subtitle">Tap a song to play. You can stop one and start another anytime.</p>
+
+  <div class="track-list">
+
+    <!-- Track 1 -->
+    <div class="track">
+      <div class="track-title">Capulet & Montague</div>
+      <div class="track-meta">Written by Mason</div>
+      <audio controls>
+        <source src="song1.mp3" type="audio/mpeg">
+        Your browser doesn’t support the audio element.
+      </audio>
+    </div>
+
+    <!-- Track 2 -->
+    <div class="track">
+      <div class="track-title">Song 2 Title</div>
+      <div class="track-meta">Written & performed by Mason</div>
+      <audio controls>
+        <source src="song2.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <!-- Track 3 -->
+    <div class="track">
+      <div class="track-title">Song 3 Title</div>
+      <div class="track-meta">Written & performed by Mason</div>
+      <audio controls>
+        <source src="song3.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <!-- Track 4 -->
+    <div class="track">
+      <div class="track-title">Song 4 Title</div>
+      <div class="track-meta">Written & performed by Mason</div>
+      <audio controls>
+        <source src="song4.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+  </div>
+</body>
+</html>
