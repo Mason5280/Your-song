@@ -73,14 +73,13 @@
       </audio>
     </div>
 
-  </div>
-   
     <div class="track">
-      <div class="track-title">Capulet & Montegue</div>
+      <div class="track-title">Capulet & Montague</div>
       <audio controls>
-        <source src="capulet-&-montegue.mp3"
-type="audio/mpeg">
+        <source src="capulet-&-montegue.mp3" type="audio/mpeg">
       </audio>
     </div>
+
+  </div>
 </body>
 </html>
