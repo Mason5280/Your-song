@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mason – Songs</title>
+  <title>Mason – Song Collection</title>
   <style>
     body {
       background: #000;
@@ -36,9 +36,13 @@
       font-size: 1.1em;
       margin-bottom: 0.2em;
     }
+    .track-meta {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 0.5em;
+    }
     audio, video {
       width: 100%;
-      margin-top: 5px;
     }
   </style>
 </head>
@@ -70,5 +74,13 @@
     </div>
 
   </div>
+   
+    <div class="track">
+      <div class="track-title">Capulet & Montegue</div>
+      <audio controls>
+        <source src="capulet-&-montegue.mp3"
+type="audio/mpeg">
+      </audio>
+    </div>
 </body>
 </html>
